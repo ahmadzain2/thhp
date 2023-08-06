@@ -1,25 +1,4 @@
-# Project Name
+# IPTV MALAY MIX
 
-Brief description of your project.
-
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Features](#features)
-- [Installation](#installation)
-
-## Introduction
-
-A brief introduction to your project. Explain what it does, its purpose, and why it's valuable.
-
-## Features
-
-List the key features and functionalities of your project here. Use bullet points for clarity.
-
-- Feature 1: Description
-- Feature 2: Description
-- ...
-
-## Installation
-
-
+# What's this all about?
+It's basically MYTV Broadcasting / myFreeview but through IPTV. All channels are sourced from official sources. For these who didn't want to buy MYTV Set-top-boxes and antennas starting from RM60, but have a TV box.  
