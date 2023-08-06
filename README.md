@@ -7,7 +7,6 @@ Brief description of your project.
 - [Introduction](#introduction)
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
 
 ## Introduction
 
