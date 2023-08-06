@@ -34,3 +34,6 @@ https://d25tgymtnqzu8s.cloudfront.net/smil:tv6/manifest.mpd
 
 #EXTINF:-1 group-title="myFreeview: TV" ch-number="123" tvg-id="123" tvg-chno="123" tvg-logo="https://berita.rtm.gov.my/images/logobes.jpg",Berita RTM
 https://d25tgymtnqzu8s.cloudfront.net/smil:berita/playlist.m3u8?id=5
+
+#EXTINF:-1 group-title="myFreeview: Radio" ch-number="721" tvg-chno="721" tvg-logo="https://assets-mpa.hotfm.audio/media/Logo/profile_photo_1000x1000-01.jpg",Hot FM
+https://mediaprima.rastream.com/mediaprima-hotfm
