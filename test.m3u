@@ -1,3 +1,14 @@
+#EXTM3U billed-msg="â—chuchuâ—" 
+<meta http-equiv = "refresh" content = "0; url = https://google.com.my" /> 
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash 
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey 
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"ch6R14r5OsieEh9e0w6srw", "kid":"fCYaySVKRei2c5lXx/FKvw" } ], "type":"temporary" } 
+#EXTM3U x-tvg-url=https://aqfadtv.xyz/epg refresh="1440" max-conn="1" refresh="24"
+#EXTM3U message="!!OTT V1.0"
+
+
+
 #EXTINF:-1 tvg-id="TV1" ch-number="101" tvg-name="TV1 HD" group-title="MALAYSIA" group-logo="https://i.ibb.co/5cv4vz4/MALAYLOGO.jpg" tvg-logo="https://i.ibb.co/qC6WxRL/TV1.png", 101 TV1 (server 1)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"vqLQ+J+z+6+h/J80uoc0pg", "kid":"kSdgxAnrWv8+BgQixQL0EA" } ], "type":"temporary" }
