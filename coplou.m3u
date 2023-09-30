@@ -38,7 +38,6 @@ https://linearjitp-playback.astro.com.my/dash-wv/linear/5027/default_primary.mpd
 #EXTINF:-1 tvg-id="TV2" ch-number="102" tvg-name="TV2 HD" group-title="MALAYSIA" tvg-logo="https://rtm-images.glueapi.io/320x0/live_channel/SALURAN_1920x1080px_TV2.jpg",102 TV2 (server 3)
 https://linear08-playback.sooka.my/CH1/masterCH1.mpd
 
-
 #EXTINF:-1 group-title="Malaysia" ch-number="103" tvg-id="103" tvg-chno="103" tvg-logo="https://headend-api.tonton.com.my/v100/imageHelper.php?id=6420323:378:CHANNEL:IMAGE:png&w=200&appID=TONTON",103 TV3 (server 1)
 https://live-xtra-sg1.global.ssl.fastly.net/live-hls/tonton1.m3u8|Referer=https://live-xtra-sg1.global.ssl.fastly.net/
 
@@ -90,16 +89,8 @@ https://d25tgymtnqzu8s.cloudfront.net/smil:sukan/playlist.m3u8?id=4
 #EXTINF:-1 tvg-id="113" ch-number="113" tvg-name="TV6" group-title="Malaysia" tvg-logo="https://i.ibb.co/LPVMhTq/tv6.png",113 TV6
 https://d25tgymtnqzu8s.cloudfront.net/smil:tv6/playlist.m3u8?id=6
 
-#EXTINF:-1 group-title="Malaysia" ch-number="123" tvg-id="123" tvg-chno="123" tvg-logo="https://berita.rtm.gov.my/images/logobes.jpg",Berita RTM
-https://d25tgymtnqzu8s.cloudfront.net/smil:berita/playlist.m3u8?id=5
-
 #EXTINF:-1 group-title="Malaysia" tvg-id="501" tvg-name="ASTRO AWANI" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/ff/Astro_Awani.png",ASTRO AWANI
 https://d2idp3hzkhjpih.cloudfront.net/out/v1/4b85d9c2bf97413eb0c9fd875599b837/index_3.m3u8
-
-#EXTINF:-1 tvg-id="TVAlhijrah" ch-number="114" tvg-logo="https://aqfadtv.astradamy.com/logos/TVAlhijrahWhite.png" group-title="Malaysia",114 TV AlHijrah
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://ck-dash-mpd.astradamy.com/dash-ck/linear/1113
-http://linearjitp-playback.astro.com.my/dash-wv/linear/1113/default_ott.mpd
 
 #EXTINF:-1, group-title="Malaysia" tvg-id="CHN" tvg-logo="https://telegra.ph/file/3bd2712a70950607fa779.png",TV IKIM
 https://edge-sg1.vediostream.com/abr/tvikim/playlist.m3u8
@@ -119,13 +110,16 @@ http://linearjitp-playback.astro.com.my/dash-wv/linear/5071/default_primary.mpd
 #KODIPROP:inputstream.adaptive.license_key=https://ck-dash-mpd.astradamy.com/dash-ck/linear/2501
 https://linearjitp-playback.astro.com.my/dash-wv/linear/2501/default_ott.mpd
 
-#EXTINF:-1 tvg-id="GoShopBAARU" group-title="Malaysia" tvg-logo="https://aqfadtv.astradamy.com/logos/GoShopBAARU.png",111 Go Shop BAARU
+#EXTINF:-1 tvg-id="GoShopBAARU" group-title="Malaysia" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/42/GO_Shop_GAAYA.png/revision/latest?cb=20200527075101",111 Go Shop BAARU
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://ck-dash-mpd.astradamy.com/dash-ck/linear/2508
 https://linearjitp-playback.astro.com.my/dash-wv/linear/2508/default_ott.mpd
   
-#EXTINF:-1 tvg-id="BERITARTM" ch-number="" tvg-name="BERITA RTM" tvg-logo="https://i.ibb.co/ZKTbW1x/BERITARTM.png" group-title="Malaysia",Berita RTM  
-#EXTVLCOPT:http-referrer=https://rtm-player.glueapi.io/
+#EXTINF:-1 tvg-id="RTMK05" ch-number=" " tvg-name="BERITA RTM" group-title="Malaysia" tvg-logo="https://berita.rtm.gov.my/images/logobes.jpg",Berita RTM (server 1)
+#EXTVLCOPT:http-referrer=https://rtmklik.rtm.gov.my
+https://d25tgymtnqzu8s.cloudfront.net/smil:berita/manifest.mpd
+
+#EXTINF:-1 group-title="Malaysia" ch-number="123" tvg-id="123" tvg-chno="123" tvg-logo="https://berita.rtm.gov.my/images/logobes.jpg",Berita RTM (server 2)
 https://d25tgymtnqzu8s.cloudfront.net/smil:berita/playlist.m3u8?id=5
 
 #EXTINF:-1 tvg-id="TVSUKAN" ch-number="111" tvg-name="SUKAN RTM" group-title="Malaysia" tvg-logo="https://i.ibb.co/68Sy6qF/SUKANRTM.png",111 Sukan RTM
@@ -139,12 +133,11 @@ https://d25tgymtnqzu8s.cloudfront.net/smil:negara/playlist.m3u8?id=8
 #EXTINF:-1 tvg-id="Dewan Rakyat" ch-number="111" tvg-name="Dewan Rakyat" tvg-logo="https://i.ibb.co/0YkW2wV/RAKYAT.png" group-title="Malaysia",Parlimen Dewan Rakyat
 #EXTVLCOPT:http-referrer=https://rtm-player.glueapi.io/
 https://d25tgymtnqzu8s.cloudfront.net/smil:rakyat/playlist.m3u8?id=7
-  
 
+#EXTINF:-1 tvg-id="TVAlhijrah" ch-number="114" tvg-logo="https://upload.wikimedia.org/wikipedia/en/0/0f/TV_Alhijrah_logo.png" group-title="Malaysia",114 TV AlHijrah
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"V6jW+eODKIfbGOpgcRGHNg", "kid":"QaQvta9FdQHBG7mxWNWhEA" } ], "type":"temporary" }
-#EXTINF:-1 tvg-id="114" ch-number="114" tvg-logo="https://i.ibb.co/k9BTpjL/ALHIJRAH.png" group-title="MALAYSIA",TV Alhijrah 
-http://linearjitp-playback.astro.com.my/dash-wv/linear/1113/default_primary.mpd
+#KODIPROP:inputstream.adaptive.license_key=https://ck-dash-mpd.astradamy.com/dash-ck/linear/1113
+http://linearjitp-playback.astro.com.my/dash-wv/linear/1113/default_ott.mpd
 
 #EXTINF:-1 tvg-id="CHN" ch-number=" " tvg-name="RTB Sukmaindera" tvg-logo="https://i.ibb.co/VwqczGX/RTBSUKMA.png" group-title="MALAYSIA",RTB Sukmaindera
 https://d1211whpimeups.cloudfront.net/smil:rtb1/playlist.m3u8
@@ -178,15 +171,6 @@ https://linearjitp-playback.astro.com.my/dash-wv/linear/5021/default_primary.mpd
 https://linearjitp-playback.astro.com.my/dash-wv/linear/2505/default_primary.mpd
 # https://stream.zeehanzgadget.com/oasis.mpd
 
-#EXTINF:-1 tvg-id="GoShopBAARU" ch-number="111" tvg-name="Go Shop BAARU" group-title="MALAYSIA" tvg-logo="https://i.ibb.co/z7Mwptq/SHOPBARU.png",Go Shop BARU
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"I/N7gJBxWt5eH9sMhJZ9Tw", "kid":"HdDP+u1Ln8p9Tij6QpWmEA" } ], "type":"temporary" }
-https://linearjitp-playback.astro.com.my/dash-wv/linear/2508/default_primary.mpd
-
-#EXTINF:-1 tvg-id="GoShopRUUMA" ch-number="118" tvg-name="Go Shop RUUMA" group-title="MALAYSIA" tvg-logo="https://i.ibb.co/Vjyz9cB/SHOPRUUMA.png",Go Shop RUUMA
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"d/p637HSmw2bkhE2VBnd8w", "kid":"YfOg21DmD1/4Z8Irbgt5EA" } ], "type":"temporary" }
-https://linearjitp-playback.astro.com.my/dash-wv/linear/2501/default_primary.mpd
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"nBBcxoyqnPZTFeBu9Qhgqw", "kid":"GQDQ/Y39I1fKJoXGZii/Bw" } ], "type":"temporary" }
@@ -920,8 +904,6 @@ https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_4.m
 #EXTINF:-1 tvg-id=" " group-title="News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CGTN.svg/2560px-CGTN.svg.png",CGTN
 https://live.cgtn.com/1000/prog_index.m3u8
 
-
-
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"UlUQz6Y0vWMK+MlfqTV2yg", "kid":"bwbzs898utDMiyHiyU37EA" } ], "type":"temporary" }
 #EXTINF:-1 tvg-id="501" ch-number:"AstroAwani" ch-number=" " tvg-name="Astro Awani HD" group-title="NEWS" group-logo="https://i.ibb.co/yQc6ZCH/NEWSLOGO.png" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/84_144.png",501 Astro Awani 
@@ -931,10 +913,6 @@ http://linearjitp-playback.astro.com.my/dash-wv/linear/5025/default_primary.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"OaJ6osyEoptmX8xNv5xUtg","kid":"FAa78hjKFPlnA0/PSr93EA"}],"type":"temporary"}
 http://linearjitp-playback.astro.com.my/dash-wv/linear/1114/default_primary.mpd
-
-#EXTINF:-1 tvg-id="RTMK05" ch-number=" " tvg-name="BERITA RTM" group-title="NEWS" tvg-logo="https://i.ibb.co/ZKTbW1x/BERITARTM.png",Berita RTM
-#EXTVLCOPT:http-referrer=https://rtmklik.rtm.gov.my
-https://d25tgymtnqzu8s.cloudfront.net/smil:berita/manifest.mpd
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=7cb90b341f444e4ca3fb60de2ed3d6e5:5640220b78729773fbeaabc19a502b50
