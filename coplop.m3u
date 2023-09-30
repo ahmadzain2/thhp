@@ -814,7 +814,7 @@ https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"hBL0RP++NQzy7OBR+RUukA", "kid":"C2Uyau3j7b6B5vtAMX1TEA" } ], "type":"temporary" }
-#EXTINF:-1 tvg-id="Astro SuperSport" ch-number="999" tvg-name="Astro SuperSport HD" tvg-logo="https://www.thesportsdb.com/images/media/tvlogo/swwvwy1475246194.png" group-title="SPORTS",810 Astro SuperSport
+#EXTINF:-1 tvg-id="AstroSuperSport.my" ch-number="999" tvg-name="Astro SuperSport HD" tvg-logo="https://www.thesportsdb.com/images/media/tvlogo/swwvwy1475246194.png" group-title="SPORTS",811 Astro SuperSport
 https://staging-linearjitp-playback.astro.com.my/dash-wv/linear/1000/default_primary.mpd
 
 
